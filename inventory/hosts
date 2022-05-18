@@ -1,2 +1,9 @@
 [ios]
 192.168.204.3
+
+[linux]
+host1 ansible_host=127.0.0.1
+
+[linux:vars]
+ansible_user=root
+#ansible_password=ZXCASDqwe123
